@@ -3,14 +3,18 @@
 </p>
 
 <h1>Post-Install Configuration</h1>
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br /><br><br><br><br>
+This tutorial goes over the basic post-install configuration of the osTicket.<br /><br><br><br><br>
 
 
-We’re going to set up osTicket with basic configurations to get it up and running. We’re going to get a sense of how to navigate through osTicekt and see various tabs. This is not going to be a completely comprehensive guide.
+This is not going to be a complete comprehensive guide. We’re going to get a sense of how to navigate through osTicekt and see an asortment of tabs as we set up osTickets with very basic configurations.
 
-Admin Panel is backend configuration and the Agent Panel is for users that are handling tickets.
-What we’ll do first is add a new Role. Roles tell each user what their allowed to do within osTicket.
-So, to get started, lets click Admin Panel in the upper right.
+Okay, let's get started.
+
+Well actually, before that let's briefly mention the two panels we'll be switching between: the Admin Panel and Agent Panel. 
+The Admin Panel is backend configuration and the Agent Panel is for users that are handling tickets.
+
+Okay, now what we’ll do first is add a new Role. Roles tell each user what their allowed to do within osTicket.
+So, lets click Admin Panel in the upper right.
 
 ![1](https://github.com/user-attachments/assets/270800f8-c87b-4f54-8928-6f51d60e9988)<br><br><br><br>
 
@@ -41,7 +45,7 @@ Click on the departments tab and click Add new department.
 ![5](https://github.com/user-attachments/assets/6fea3b06-03c1-43a2-b733-970f81bb2683)<br><br><br><br>
 
 
-The department sections can be used for ticket visibility, say if you have a networking department and you can set up their department so they can only see tickets for their department where a sysadmin department will be able to see all tickets.
+The department sections can be used for ticket visibility, say if you have a networking department, you can set up their department so they can only see tickets for their department where a sysadmin department will be able to see all tickets.
 Here, we simply need to fill out the name field for the department and click Create Dept.
 
 ![6](https://github.com/user-attachments/assets/175c76c0-ad2b-4b93-a644-784e8df57280)
@@ -49,7 +53,7 @@ Here, we simply need to fill out the name field for the department and click Cre
 The rest of the fields in this tab are optional. We’ve filled out all that’s required to create a new department. And you can assign agents in the Access tab next to the Settings tab.
 For now, let’s head over to the Teams section.<br><br><br><br>
 
-Teams are for creating a group of people who are from different departments. For instance, you’d have a Sys Admin and helpdesk agents pulled together to for a team for Online Distribution.
+Teams are for creating a group of people who are from different departments. For instance, you’d have a Sys Admin and helpdesk agents pulled together from different departments to form the Online Distribution team.
 ![7](https://github.com/user-attachments/assets/3360eb54-7d5a-4d9a-9d22-0ddd1797e21f)<br>
 Adding a new team is simple too. Click on teams, then add new team, now you simply assign a name and fill out any other information that you require, such as the team lead and other members of the team.<br><br><br><br>
 
@@ -61,7 +65,7 @@ On this tab you'll need to click Require registration and login to create ticket
 
 
 
-Up next, I'm going to create an Agent to handle Tickets. Click the Agents tab, then the other agents tab, and then add new agent.
+Up next, We're going to create an Agent to handle Tickets. Click the Agents tab, then the other agents tab, and then add new agent.
 Fill out the necessary fields and click set password.
 
 ![9](https://github.com/user-attachments/assets/f4b96b06-8497-4b23-8ff8-79d01ba40e9b)<br><br><br><br>
@@ -87,7 +91,7 @@ After we've done that, we'll click create.<br><br><br><br>
 
 
 Now, we’re going to create a User.<br>
-To do this We’ll need to go to the agents panel, which is in the upper right corner.
+To do this we’ll need to go to the agents panel, which is in the upper right corner.
 
 ![15](https://github.com/user-attachments/assets/9fb1818a-1238-49b6-8821-6914fbeb4769)<br><br><br><br>
 
@@ -130,7 +134,7 @@ This will enable the user to register on the user support ticket portal so they 
 
 
 
-And finally, SLAs. An SLA (Service Level Agreement) is basically how much time you have to do a specific task, responding to a ticket, resolving a ticket, things like that.
+And finally, SLAs. An SLA (Service Level Agreement) is basically how much time you have to do a specific task such as responding to a ticket or resolving a ticket.
 To configure SLAs, we’ll click on the admin panel in the upper right
 
  
@@ -153,7 +157,7 @@ Schedule determines when grace periods are in affect.
 
 - 24/5 = 24 hours a day 5 days a week, Monday – Friday.
 - 24/7 = 24 hours a day 7 days a week, Monday – Sunday.
-- Monday – Friday, 8a.m. to 5p.m. with U.S. Holidays. – business hours.
+- Monday – Friday = 8a.m. to 5p.m. with U.S. Holidays. – business hours.
 
 ![23](https://github.com/user-attachments/assets/bcc8c32d-047d-4ac9-b1f4-03c4a530b549)<br><br><br><br>
 
