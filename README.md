@@ -3,7 +3,7 @@
 </p>
 
 <h1>Post-Install Configuration</h1>
-This tutorial goes over the basic post-install configuration of the osTicket.<br /><br><br><br><br>
+This tutorial goes through the basic post-install configuration of the osTicket.<br /><br><br><br><br>
 
 
 This is not going to be a complete comprehensive guide. We’re going to get a sense of how to navigate through osTicekt and see an asortment of tabs as we set up osTickets with very basic configurations.
