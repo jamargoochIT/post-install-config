@@ -6,7 +6,7 @@
 This tutorial goes through the basic post-install configuration of the osTicket.<br /><br><br><br><br>
 
 
-This is not going to be a complete comprehensive guide. We’re going to get a sense of how to navigate through osTicekt and see an assortment of tabs as we set up osTickets with very basic configurations.
+This is not going to be a complete, comprehensive guide. We’re going to get a sense of how to navigate through osTicekt and see an assortment of tabs as we set up osTickets with very basic configurations.
 
 
 Before we get started, let's briefly mention the two panels we'll be switching between: the Admin Panel and Agent Panel. 
@@ -19,12 +19,12 @@ So, let's click Admin Panel in the upper right.
 
 
 
-Click on the Agents tab, then click on Roles and then add new role.
+Click on the Agents tab, then click on Roles, and then add new role.
 
 ![2](https://github.com/user-attachments/assets/bcde9fe0-14c3-407a-9515-f3940636fffd)<br><br><br><br>
 
 
-Type in the name of the new role you want in this case, I’ll use Supreme Admin. 
+Type in the name of the new role you want; in this case, I’ll use Supreme Admin. 
 
 ![3](https://github.com/user-attachments/assets/99dfdfef-ca6a-4dc0-ae88-af1fc50a957b)<br><br><br><br>
 
@@ -44,7 +44,7 @@ Click on the departments tab and click Add new department.
 ![5](https://github.com/user-attachments/assets/6fea3b06-03c1-43a2-b733-970f81bb2683)<br><br><br><br>
 
 
-The department sections can be used for ticket visibility, say if you have a networking department, you can set up their department so they can only see tickets for their department where a sysadmin department will be able to see all tickets.
+The department sections can be used for ticket visibility; say if you have a networking department, you can set up their department so they can only see tickets for their department, where a sysadmin department will be able to see all tickets.
 Here, we simply need to fill out the name field for the department and click Create Dept.
 
 ![6](https://github.com/user-attachments/assets/175c76c0-ad2b-4b93-a644-784e8df57280)
@@ -161,7 +161,7 @@ Schedule determines when grace periods are in effect.
 ![23](https://github.com/user-attachments/assets/bcc8c32d-047d-4ac9-b1f4-03c4a530b549)<br><br><br><br>
 
 
-And finally, if we want to create Help Topics for users to apply to their tickets ( a Help Topic is basically a category that can be assigned to a ticket.) we’ll click the Help Topics tab and then click
+And finally, if we want to create Help Topics for users to apply to their tickets ( a Help Topic is basically a category that can be assigned to a ticket.), we’ll click the Help Topics tab and then click
 Add New Help Topic.
 
 ![24](https://github.com/user-attachments/assets/1f578c2e-6885-4b1d-842c-c88a831244c8)<br><br><br><br>
